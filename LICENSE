@@ -1,0 +1,52 @@
+POCO X3 Pro EDL Bootloader Unlocker
+
+Copyright (c) 2026 Mohammad Mehrab Hossain (0xmehr4b)
+All rights reserved.
+
+
+PERMITTED
+
+  You may download this software and use it on any POCO X3 Pro (vayu / bhima)
+  device you own or service.
+  You may report bugs and suggest changes.
+
+
+NOT PERMITTED
+
+  Redistribution of this software, in whole or in part, modified or
+  unmodified, in any medium.
+
+  Publishing a fork, derivative, rebrand or re-upload.
+
+  Using any part of this software in another project.
+
+  Any commercial sale or paid unlocking service bundling this tool.
+
+
+Permission for anything not listed under PERMITTED must be requested from the
+copyright holder in writing.
+
+Because this repository is public, GitHub's Terms of Service allow any user to
+view it and to use the platform's fork button. That is a platform function and
+not a grant of licence. No copy or derivative may be published or distributed.
+
+
+THIRD PARTY
+
+  Qualcomm Sahara / Firehose host utilities (QSaharaServer.exe, fh_loader.exe,
+  lsusb.exe), Android Platform Tools (adb.exe, fastboot.exe), the SM8150 DDR
+  Firehose programmer, and WHQL USB drivers in bin/, firmware/ and drivers/ are
+  the property of their respective copyright holders and are included solely for
+  hardware interoperability. See CREDITS.md.
+
+
+NO WARRANTY
+
+  THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM OR
+  IN CONNECTION WITH THIS SOFTWARE OR ITS USE.
+
+  Opening a device to access motherboard test points and modifying bootloader
+  state clears user data on first boot. You do so at your own risk.

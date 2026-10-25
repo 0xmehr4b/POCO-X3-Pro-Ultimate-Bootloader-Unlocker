@@ -1,0 +1,18 @@
+# Ensure Windows batch scripts retain CRLF endings when cloned via SSH/HTTPS or downloaded as ZIP
+*.bat text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
+*.xml text eol=lf
+*.html text eol=lf
+
+# Treat all binaries, firmware payloads, drivers, images, and PDFs as binary
+*.exe binary
+*.dll binary
+*.elf binary
+*.bin binary
+*.img binary
+*.sys binary
+*.cat binary
+*.pdf binary
+*.jpg binary
+*.png binary

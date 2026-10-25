@@ -1,0 +1,49 @@
+name: Bug report
+description: EDL 9008 handshake failed, or the device did not unlock
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before opening an issue, attach the latest session log from `logs/`.**
+        Every run writes `logs/edl_session_YYYYMMDD_HHMMSS.log` with the exact
+        Sahara and Firehose output.
+
+  - type: textarea
+    id: session-log
+    attributes:
+      label: Session log
+      description: Paste the contents of the latest `logs/edl_session_*.log` file.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: fastboot-vars
+    attributes:
+      label: fastboot getvar all
+      description: Output of `bin\fastboot.exe getvar all` (especially `product`, `secure`, and `unlocked`).
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: board
+    attributes:
+      label: Board variant and Windows version
+      placeholder: POCO X3 Pro (vayu) — reballed SM8150, Windows 11 23H2
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The wide black MB ribbon cable stayed plugged in while shorting the two EDL test points
+          required: true
+        - label: Device Manager shows Qualcomm HS-USB QDLoader 9008 (COMx) under Ports (COM & LPT)
+          required: true
+        - label: The battery ribbon was unplugged before bridging the two test points
+          required: true

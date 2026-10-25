@@ -1,0 +1,9 @@
+# Ignore personal session backups, logs, and temporary Firehose readbacks
+backups/backup_devinfo_*.bin
+logs/*.log
+firmware/current_devinfo.bin
+firmware/verify_devinfo.bin
+firmware/gpt_lun0.bin
+firmware/port_trace.txt
+__pycache__/
+*.pyc

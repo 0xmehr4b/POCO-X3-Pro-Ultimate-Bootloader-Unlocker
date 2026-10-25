@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<data>
+  <program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="gpt_lun0.bin" label="PrimaryGPT" num_partition_sectors="6" partofsingleimage="false" physical_partition_number="0" start_sector="0"/>
+</data>

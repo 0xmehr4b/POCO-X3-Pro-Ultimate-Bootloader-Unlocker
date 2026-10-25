@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the illustrated PDF guide first
+    url: https://github.com/0xmehr4b/POCO-X3-Pro-Ultimate-Bootloader-Unlocker/blob/main/POCO_X3_Pro_Bootloader_Unlock_Guide.pdf
+    about: Exact EDL test points, wide MB cable rule, first-boot wipe, and Xiaomi 2FA fix.
+  - name: Device not showing as 9008 when bridging test points
+    url: https://github.com/0xmehr4b/POCO-X3-Pro-Ultimate-Bootloader-Unlocker#something-off
+    about: Keep the wide black MB ribbon plugged in and run Install_Drivers.bat.
